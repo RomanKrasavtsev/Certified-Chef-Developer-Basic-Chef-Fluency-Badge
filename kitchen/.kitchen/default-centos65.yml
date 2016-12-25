@@ -1,0 +1,7 @@
+---
+last_error: 
+hostname: 127.0.0.1
+port: '2222'
+username: vagrant
+ssh_key: "/Users/roman_krasavtsev/Documents/GitHub/learning-chef/kitchen/.kitchen/kitchen-vagrant/kitchen-kitchen-default-centos65/.vagrant/machines/default/virtualbox/private_key"
+last_action: create
