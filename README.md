@@ -9,7 +9,8 @@ kitchen create default-centos65
 ```
 ## Install chef-client
 ```
-curl -Lk https://www.getchef.com/chef/install.sh | sudo bash 
+curl -Lk https://www.getchef.com/chef/install.sh | sudo bash
+chef-client --version
 ```
 
 # VirtualBox
