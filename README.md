@@ -4,6 +4,7 @@
 ```
 kitchen init --create-gemfile
 bundle install
+vim .kitchen.yml
 kitchen create default-centos65
 ```
 ## install chef-client
