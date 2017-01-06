@@ -15,5 +15,6 @@ chef-client --version
 
 # VirtualBox
 ```
+VBoxManage --version
 VBoxManage list runningvms
 ```
