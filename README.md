@@ -2,6 +2,9 @@
 ```
 ohai
 ```
+```ruby
+node["hostname"]
+```
 
 ## Test Kitchen
 ```
