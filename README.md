@@ -1,4 +1,7 @@
 # Chef
+```
+ohai
+```
 
 ## Test Kitchen
 ```
