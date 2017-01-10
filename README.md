@@ -1,5 +1,8 @@
 # Chef
 ```
+chef generate cookbook motd
+```
+```
 ohai
 ```
 ```ruby
