@@ -33,3 +33,8 @@ chef-client --version
 VBoxManage --version
 VBoxManage list runningvms
 ```
+
+# Vagrant
+```
+vagrant global-status
+```
