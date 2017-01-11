@@ -2,6 +2,7 @@
 ```
 chef generate cookbook motd
 chef generate file motd
+kitchen converge default-centos65
 ```
 ```
 ohai
