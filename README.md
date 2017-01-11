@@ -1,6 +1,7 @@
 # Chef
 ```
 chef generate cookbook motd
+chef generate file motd
 ```
 ```
 ohai
