@@ -1,6 +1,6 @@
 # Chef
 ```
-chef generate cookbook motd
+chef generate cookbook motd || knife cookbook create
 chef generate file motd
 kitchen converge default-centos65
 ```
