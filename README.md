@@ -1,3 +1,19 @@
+# Installation
+```
+wget https://packages.chef.io/files/stable/chefdk/1.3.43/el/6/chefdk-1.3.43-1.el6.x86_64.rpm
+sudo prm -ivh chefdk-1.3.43-1.el6.x86_64.rpm
+```
+# Check syntax
+
+## Ruby syntax
+`ruby -c apache.rb`
+
+## Chef syntax
+`foodcritic apache.rb`
+
+# Applying
+`sudo chef-client --local-mode apache.rb`
+
 # Chef
 ```
 chef generate cookbook motd || knife cookbook create
