@@ -16,6 +16,9 @@ sudo prm -ivh chefdk-1.3.43-1.el6.x86_64.rpm
 or
 `sudo chef-client -z apache.rb`
 
+# Generate cookbook
+`chef generate cookbook COOKBOOKNAME`
+
 # Chef
 ```
 chef generate cookbook motd || knife cookbook create
