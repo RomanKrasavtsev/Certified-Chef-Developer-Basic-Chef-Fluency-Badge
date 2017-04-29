@@ -13,6 +13,8 @@ sudo prm -ivh chefdk-1.3.43-1.el6.x86_64.rpm
 
 # Applying
 `sudo chef-client --local-mode apache.rb`
+or
+`sudo chef-client -z apache.rb`
 
 # Chef
 ```
