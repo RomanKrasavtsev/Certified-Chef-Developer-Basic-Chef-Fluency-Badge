@@ -20,7 +20,10 @@ or
 `chef generate cookbook COOKBOOKNAME`
 
 # Chef Server. Installation
-`wget  https://packages.chef.io/files/stable/chef-server/12.15.0/el/7/chef-server-core-12.15.0-1.el7.x86_64.rpm`
+```
+wget  https://packages.chef.io/files/stable/chef-server/12.15.0/el/7/chef-server-core-12.15.0-1.el7.x86_64.rpm
+sudo rpm -ihv chef-server-core-12.15.0-1.el7.x86_64.rpm
+```
 
 # Chef
 ```
