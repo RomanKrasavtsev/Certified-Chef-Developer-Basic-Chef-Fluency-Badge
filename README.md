@@ -26,8 +26,17 @@ sudo rpm -ihv chef-server-core-12.15.0-1.el7.x86_64.rpm
 sudo chef-server-ctl reconfigure
 sudo chef-server-ctl user-create username firstname lastname email password --filename firstname-lastname-rsa
 sudo chef-server-ctl org-create company 'Company, Inc' --association_user username --filename company-validator.pem
+```
+
+# Chef Manage. Installation
+```
 sudo chef-server-ctl install chef-manage
 sudo chef-manage-ctl reconfigure
+```
+
+# Add node
+```
+knife bootstrap node_ip -N node_name --ssh-user username --sudo
 ```
 
 # Chef
