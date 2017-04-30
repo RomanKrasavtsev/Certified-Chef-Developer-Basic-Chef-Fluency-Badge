@@ -1,4 +1,4 @@
-# Installation
+# ChefSDK. Installation
 ```
 wget https://packages.chef.io/files/stable/chefdk/1.3.43/el/6/chefdk-1.3.43-1.el6.x86_64.rpm
 sudo prm -ivh chefdk-1.3.43-1.el6.x86_64.rpm
@@ -18,6 +18,9 @@ or
 
 # Generate cookbook
 `chef generate cookbook COOKBOOKNAME`
+
+# Chef Server. Installation
+`wget  https://packages.chef.io/files/stable/chef-server/12.15.0/el/7/chef-server-core-12.15.0-1.el7.x86_64.rpm`
 
 # Chef
 ```
