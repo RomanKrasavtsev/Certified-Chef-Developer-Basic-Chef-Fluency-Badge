@@ -38,6 +38,8 @@ sudo chef-manage-ctl reconfigure
 ```
 knife bootstrap node_ip -N node_name --ssh-user username --sudo
 ```
+# Upload cookbook
+`knife cookbook upload cookbook_name`
 
 # Chef
 ```
