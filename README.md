@@ -23,6 +23,11 @@ or
 ```
 wget  https://packages.chef.io/files/stable/chef-server/12.15.0/el/7/chef-server-core-12.15.0-1.el7.x86_64.rpm
 sudo rpm -ihv chef-server-core-12.15.0-1.el7.x86_64.rpm
+sudo chef-server-ctl reconfigure
+sudo chef-server-ctl user-create username firstname lastname email password --filename firstname-lastname-rsa
+sudo chef-server-ctl org-create company 'Company, Inc' --association_user username --filename company-validator.pem
+sudo chef-server-ctl install chef-manage
+sudo chef-manage-ctl reconfigure
 ```
 
 # Chef
