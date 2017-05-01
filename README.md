@@ -34,6 +34,9 @@ sudo chef-server-ctl install chef-manage
 sudo chef-manage-ctl reconfigure
 ```
 
+# Upload cookbook
+`knife cookbook upload cookbook_name`
+
 # Add node
 ```
 cd chef-repo
@@ -43,8 +46,11 @@ knife bootstrap node_ip -N node_name --ssh-user username --sudo
 # Node list
 `knife node list`
 
-# Upload cookbook
-`knife cookbook upload cookbook_name`
+# Node run_list add
+`knife run_list add node_name recipe['apache']`
+
+# Node show
+`knife node show node_name`
 
 # Chef
 ```
