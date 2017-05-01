@@ -51,6 +51,8 @@ knife bootstrap node_ip -N node_name --ssh-user username --sudo
 
 # Node show
 `knife node show node_name`
+## all information
+`knife node show -l node_name`
 
 # Chef
 ```
