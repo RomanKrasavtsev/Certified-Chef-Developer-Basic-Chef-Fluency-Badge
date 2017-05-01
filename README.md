@@ -49,6 +49,9 @@ knife bootstrap node_ip -N node_name --ssh-user username --sudo
 # Node run_list add
 `knife node run_list add node_name recipe['cookbook::recipe']`
 
+# Node run_list remove
+`knife node run_list remove node_name recipe['cookbook::recipe']`
+
 # Node show
 `knife node show node_name`
 ## all information
