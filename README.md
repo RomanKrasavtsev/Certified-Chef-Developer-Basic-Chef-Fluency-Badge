@@ -36,6 +36,8 @@ sudo chef-manage-ctl reconfigure
 
 # Add node
 ```
+cd chef-repo
+sudo knife ssl fetch
 knife bootstrap node_ip -N node_name --ssh-user username --sudo
 ```
 # Upload cookbook
