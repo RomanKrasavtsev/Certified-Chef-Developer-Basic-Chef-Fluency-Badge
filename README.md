@@ -17,7 +17,7 @@ or
 `sudo chef-client -z apache.rb`
 
 # Generate cookbook
-`chef generate cookbook COOKBOOKNAME`
+`chef generate cookbook PATH/COOKBOOKNAME`
 
 # Chef Server. Installation
 ```
