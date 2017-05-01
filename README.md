@@ -54,6 +54,10 @@ knife bootstrap node_ip -N node_name --ssh-user username --sudo
 ## all information
 `knife node show -l node_name`
 
+# Chef-client why-mode
+`chef-client --why-run`
+
+# From book
 # Chef
 ```
 chef generate cookbook motd || knife cookbook create
