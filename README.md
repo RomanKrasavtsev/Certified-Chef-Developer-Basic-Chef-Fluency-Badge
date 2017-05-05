@@ -65,6 +65,8 @@ knife search 'platform_family:rhel
 knife search 'recipes:apache'
 knife seacrh 'recipes:apache\:\:websites' -a hostname
 ```
+# Knife ssh
+`knife ssh "role:web" "sudo chef-client" -x user -P password`
 
 # From book
 # Chef
