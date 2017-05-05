@@ -59,6 +59,12 @@ knife bootstrap node_ip -N node_name --ssh-user username --sudo
 
 # Chef-client why-mode
 `chef-client --why-run`
+# Knife search
+```
+knife search 'platform_family:rhel
+knife search 'recipes:apache'
+knife seacrh 'recipes:apache\:\:websites' -a hostname
+```
 
 # From book
 # Chef
