@@ -68,6 +68,11 @@ knife seacrh 'recipes:apache\:\:websites' -a hostname
 # Knife ssh
 `knife ssh "role:web" "sudo chef-client" -x user -P password`
 
+# knife role
+```
+export EDITOR=$(which vim)
+knife role create role_name
+```
 # From book
 # Chef
 ```
