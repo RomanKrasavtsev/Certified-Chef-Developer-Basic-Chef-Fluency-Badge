@@ -72,6 +72,7 @@ knife seacrh 'recipes:apache\:\:websites' -a hostname
 ```
 export EDITOR=$(which vim)
 knife role create role_name
+knife role edit role_name
 ```
 # From book
 # Chef
