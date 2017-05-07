@@ -1,5 +1,5 @@
 package 'posrgresql-server' do
-  notifies :run, 'execute[postgresql-init]'
+  notifies :run, 'execute[postgresql-init]', :immediatelly
 end
 
 execute 'postgresql-init' do
