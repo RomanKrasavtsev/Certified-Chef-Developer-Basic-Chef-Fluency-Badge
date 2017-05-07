@@ -46,11 +46,12 @@ knife bootstrap node_ip -N node_name --ssh-user username --sudo
 # Node list
 `knife node list`
 
-# Node run_list add
-`knife node run_list add node_name recipe['cookbook::recipe']`
-
-# Node run_list remove
-`knife node run_list remove node_name recipe['cookbook::recipe']`
+# Node run_list
+```
+knife node run_list add node_name recipe['cookbook::recipe']
+knife node run_list remove node_name recipe['cookbook::recipe']
+knife node run_list set node_name "role[role_name]"
+```
 
 # Node show
 `knife node show node_name`
