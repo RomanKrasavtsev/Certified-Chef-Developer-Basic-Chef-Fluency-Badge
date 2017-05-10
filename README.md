@@ -76,6 +76,10 @@ knife role create role_name
 knife role edit role_name
 knife role show web
 ```
+
+# kinfe environment
+`knife environment create ENVIRONMENT_NAME -d DESCRIPTION`
+
 # From book
 # Chef
 ```
