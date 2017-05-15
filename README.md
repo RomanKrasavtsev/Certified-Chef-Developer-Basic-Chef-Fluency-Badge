@@ -83,6 +83,19 @@ knife environment create ENVIRONMENT_NAME -d DESCRIPTION
 knife node environment_set NODE_NAME ENVIRONMENT_NAME
 ```
 
+# Kitchen
+```
+kitchen init
+kitchen list
+kitchen create
+kitchen converge
+kitchen verify
+kitchen destroy
+kitchen test      # {destroy, create, converge, verify, destroy}
+kitchen login
+kitchen help
+```
+
 # From book
 # Chef
 ```
