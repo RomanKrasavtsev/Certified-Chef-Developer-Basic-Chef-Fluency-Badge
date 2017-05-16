@@ -96,6 +96,9 @@ kitchen login
 kitchen help
 ```
 
+## Docker
+`chef exec gem install kitchen-docker`
+
 # From book
 # Chef
 ```
