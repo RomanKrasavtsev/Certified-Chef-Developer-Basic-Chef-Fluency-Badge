@@ -106,6 +106,11 @@ inspec check PATH
 inspec exec PATHS
 inspec shell
 ```
+
+## Remote scan
+```
+inspec exec my_compliance_profile.rb -t ssh://user@host -i user.rsa
+```
 # From book
 # Chef
 ```
