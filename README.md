@@ -99,6 +99,13 @@ kitchen help
 ## Docker
 `chef exec gem install kitchen-docker`
 
+# InSpec
+```
+inspec init TEMPLATE
+inspec check PATH
+inspec exec PATHS
+inspec shell
+```
 # From book
 # Chef
 ```
